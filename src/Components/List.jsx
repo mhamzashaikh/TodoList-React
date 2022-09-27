@@ -13,7 +13,7 @@ function List(props) {
                         props.onUpdate(props.myId, e.target.value);
                     }}
                 />) : (
-                    <input className='input-disable' value={props.data} onChange={props.myOnChangeHandler} readOnly />
+                    <input className='input-disable' value={props.data} readOnly />
                 )}
 
                 <div className="myIcons">
